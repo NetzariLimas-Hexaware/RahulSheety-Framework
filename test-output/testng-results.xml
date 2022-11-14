@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-14T12:18:19 CST" name="Suite" finished-at="2022-11-14T12:18:33 CST" duration-ms="14296">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" name="SubmitOrder" class="Hexaware.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2022-11-14T12:18:19 CST" name="Test" finished-at="2022-11-14T12:18:33 CST" duration-ms="14296">
+      <class name="Hexaware.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" started-at="2022-11-14T12:18:19 CST" name="launchApplication" finished-at="2022-11-14T12:18:24 CST" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" started-at="2022-11-14T12:18:24 CST" name="SubmitOrder" data-provider="getData" finished-at="2022-11-14T12:18:27 CST" duration-ms="2938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Angela13, product=ZARA COAT 3, email=netzari_limas@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" started-at="2022-11-14T12:18:27 CST" name="tearDown" finished-at="2022-11-14T12:18:27 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" started-at="2022-11-14T12:18:27 CST" name="launchApplication" finished-at="2022-11-14T12:18:30 CST" duration-ms="2342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" started-at="2022-11-14T12:18:30 CST" name="SubmitOrder" data-provider="getData" finished-at="2022-11-14T12:18:33 CST" duration-ms="3590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Angela13, product=ADIDAS ORIGINAL, email=netzari_limas@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Hexaware.tests.SubmitOrderTest@5e600dd5]" started-at="2022-11-14T12:18:33 CST" name="tearDown" finished-at="2022-11-14T12:18:33 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Hexaware.tests.SubmitOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
